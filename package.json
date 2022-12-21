@@ -1,0 +1,34 @@
+{
+  "name": "authnweb",
+  "version": "1.0.0",
+  "description": "HuntGem Authen",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "authenHunt"
+  ],
+  "author": "sanglp",
+  "license": "ISC",
+  "dependencies": {
+    "@fidm/x509": "^1.2.1",
+    "@novu/node": "^0.8.0",
+    "@simplewebauthn/server": "^6.3.0-alpha.1",
+    "base64url": "^3.0.1",
+    "body-parser": "^1.20.1",
+    "cbor": "^5.0.2",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "iso-3166-1": "^2.1.1",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.0",
+    "node-rsa": "^1.1.1",
+    "nodemon": "^2.0.20",
+    "otp-generator": "^4.0.0"
+  }
+}
